@@ -1,4 +1,4 @@
-export type events = {
+export type Event = {
 	id: number;
 	name: string;
 	address: string;
@@ -12,7 +12,7 @@ export type events = {
 	capacity: number;
 };
 
-export const data: events[] = [
+export const data: Event[] = [
   {
     id: 1,
     name: "Summer Basketball Tournament",
